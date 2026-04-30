@@ -434,13 +434,35 @@ document.addEventListener('DOMContentLoaded', () => {
 <section class="section formal-serif">
   <div class="container is-max-desktop">
 
-    <h3 class="title is-4" style="font-family: inherit;">All human transcriptions</h3>
-    <p>
-      <a href="./static/pdfs/allTranscripts.html">Preview in browser</a>
-      &nbsp;·&nbsp;
-      <a href="./static/pdfs/allTranscripts.xlsx" download>Download XLSX</a>
-    </p>
+    <h3 class="title is-4" style="font-family: inherit;">
+      Download synthesized speech and human transcriptions for all 460 test sentences
+    </h3>
 
+    <p>
+      <!-- Audio Link -->
+      <span class="link-block">
+        <a href="https://osf.io/65vbx"
+           class="external-link button is-normal is-rounded is-dark"
+           download>
+          <span class="icon">
+            <i class="fas fa-volume-up"></i>
+          </span>
+          <span>Synthesized Audio</span>
+        </a>
+      </span>
+
+      <!-- Human Transcriptions Link -->
+      <span class="link-block">
+        <a href="https://github.com/MyoVerse/emg2speech/tree/main/results"
+           class="external-link button is-normal is-rounded is-dark"
+           download>
+          <span class="icon">
+            <i class="fas fa-file-excel"></i>
+          </span>
+          <span>Human Transcripts</span>
+        </a>
+      </span>
+    </p>
 
   </div>
 </section>
